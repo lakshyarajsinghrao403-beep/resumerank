@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: resumerank
+    env: python
+    buildCommand: pip install -r require.txt
+    startCommand: gunicorn final:app
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.0
