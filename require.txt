@@ -1,6 +1,0 @@
-flask
-flask-cors
-PyPDF2
-docx2txt
-werkzeug
-gunicorn
